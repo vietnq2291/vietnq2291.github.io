@@ -1,0 +1,44 @@
+/*?------------- LAPTOP-M to MOBILE -------------?*/
+@media screen and (max-width: 64em) {
+    /* #card {
+        height: 85%;
+        min-height: 600px;
+    }
+    
+    #info {
+        padding: 2rem 1rem;
+    } */
+}
+
+/*?------------------- MOBILE -------------------?*/
+@media screen and (max-width: 26.5625em) {
+    :root {
+      --biggest-font-size: 2.125rem;
+      --h2-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .9rem;
+      --smaller-font-size: .813rem;
+      --tiny-font-size: .688rem;
+    }
+
+    /* .container {
+        height: 95vh;
+    } */
+}
+
+/*?--------------- MOBILE-S (320px) ---------------?*/
+@media (max-width: 20em) {
+    #card {
+        min-width: 280px;
+    }
+}
+
+/*?---------- When the height is too low ----------?*/
+
+@media (max-height: 37.5em) {
+    .container {
+        height: auto;
+        width: auto;
+        padding: 2.5rem 0;
+    }
+}
